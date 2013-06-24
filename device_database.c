@@ -119,7 +119,7 @@ print_reason_device_not_supported(void)
   for (i = 0; i < n_supported_devices; i++) {
     if (!strcmp(device, supported_devices[i].device)) {
       char check_property_value[PROP_VALUE_MAX];
-
+	  
       if (!supported_devices[i].check_property_name) {
         break;
       }
