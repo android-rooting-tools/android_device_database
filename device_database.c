@@ -82,6 +82,7 @@ static supported_device supported_devices[] = {
   { DEVICE_NEXUS4_JDQ39,  "Nexus 4",    "JDQ39"           },
   { DEVICE_NEXUS_JOP40C,  "Galaxy Nexus",    "JOP40C"           },
   { DEVICE_NEC_101T,   	    "NEC-101T",		"112.55.12.2.02.01"  },
+  { DEVICE_NEXUS_JZO54K,  "Galaxy Nexus",    "JZO54K"           },
 };
 
 static int n_supported_devices = sizeof(supported_devices) / sizeof(supported_devices[0]);
