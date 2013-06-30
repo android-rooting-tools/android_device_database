@@ -413,7 +413,7 @@ static supported_device supported_devices[] = {
     .prepare_kernel_cred_address = 0xc00b262c,
     .commit_creds_address = 0xc00b2150,
     .remap_pfn_range_address = 0xc01362a4,
-    .ptmx_fops_address = 0xc0b86ef0,
+    .ptmx_fops_address = 0xc0cc3dc0,
   },
 
   {
