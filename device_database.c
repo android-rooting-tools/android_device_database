@@ -530,6 +530,19 @@ static supported_device supported_devices[] = {
   },
 
   {
+    .device_id = DEVICE_ISW13HT_2_06_970_4,
+    .device = "ISW13HT",
+    .build_id = "IMM76D",
+    .check_property_name = "ro.aa.romver",
+    .check_property_value = "2.06.970.4",
+
+    .prepare_kernel_cred_address = 0xc01a3be0,
+    .commit_creds_address = 0xc01a3494,
+    .remap_pfn_range_address = 0xc0205c80,
+    .ptmx_fops_address = 0xc127a8b0,
+  },
+
+  {
     .device_id = DEVICE_L01D_V20c,
     .device = "L-01D",
     .build_id = "IMM76D",
