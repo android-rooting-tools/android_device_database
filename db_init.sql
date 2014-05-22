@@ -1429,4 +1429,11 @@ INSERT INTO supported_devices(device_id, device, build_id, check_property_name, 
   INSERT INTO device_address(device_id, name, value) VALUES(192, 'vmalloc_exec', '0xc0151890');
   INSERT INTO device_address(device_id, name, value) VALUES(192, 'ptmx_fops', '0xc111fba0');
 
+INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(193, 'P-03E', '10.1010', NULL, NULL);
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'prepare_kernel_cred', '0xc00a50f4');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'commit_creds', '0xc00a4c18');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'remap_pfn_range', '0xc011bcfc');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'vmalloc_exec', '0xc01281a0');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'ptmx_fops', '0xc11b3574');
+
 COMMIT;
