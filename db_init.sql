@@ -433,6 +433,12 @@ INSERT INTO supported_devices(device_id, device, build_id, check_property_name, 
 
 INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(67, 'ISW11K', '145.0.0002', NULL, NULL);
   INSERT INTO device_address(device_id, name, value) VALUES(67, 'delayed_rsp_id', '0xc07f93a4');
+  INSERT INTO device_address(device_id, name, value) VALUES(67, 'prepare_kernel_cred', '0xc0116a94');
+  INSERT INTO device_address(device_id, name, value) VALUES(67, 'commit_creds', '0xc011636c');
+  INSERT INTO device_address(device_id, name, value) VALUES(67, 'remap_pfn_range', '0xc0159298');
+  INSERT INTO device_address(device_id, name, value) VALUES(67, 'uevent_helper', '0xc07e7ec0');
+  INSERT INTO device_address(device_id, name, value) VALUES(67, 'ptmx_fops', '0xc0c7d608');
+  INSERT INTO device_address(device_id, name, value) VALUES(67, 'perf_swevent_enabled', '0xc0c71df8');
 
 INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(68, 'URBANO PROGRESSO', '010.0.3000', NULL, NULL);
   INSERT INTO device_address(device_id, name, value) VALUES(68, 'ptmx_fops', '0xc0dc0a10');
