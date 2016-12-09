@@ -1493,4 +1493,39 @@ INSERT INTO supported_devices(device_id, device, build_id, check_property_name, 
   INSERT INTO device_address(device_id, name, value) VALUES(202, 'remap_pfn_range', '0xc00e2064');
 
 
+INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(188, 'HTL21', 'JRO03C', 'ro.aa.romver', '1.39.970.3');
+  INSERT INTO device_address(device_id, name, value) VALUES(188, 'prepare_kernel_cred', '0xc00abeac');
+  INSERT INTO device_address(device_id, name, value) VALUES(188, 'commit_creds', '0xc00ab998');
+  INSERT INTO device_address(device_id, name, value) VALUES(188, 'remap_pfn_range', '0xc00ff808');
+  INSERT INTO device_address(device_id, name, value) VALUES(188, 'vmalloc_exec', '0xc010bc04');
+  INSERT INTO device_address(device_id, name, value) VALUES(188, 'ptmx_fops', '0xc0d1df44');
+
+INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(189, 'L-01F', 'JDQ39B', 'ro.lge.swversion', 'L01F11k');
+  INSERT INTO device_address(device_id, name, value) VALUES(189, 'prepare_kernel_cred', '0xc00c37a8');
+  INSERT INTO device_address(device_id, name, value) VALUES(189, 'commit_creds', '0xc00c329c');
+  INSERT INTO device_address(device_id, name, value) VALUES(189, 'remap_pfn_range', '0xc0144c20');
+  INSERT INTO device_address(device_id, name, value) VALUES(189, 'vmalloc_exec', '0xc01521dc');
+  INSERT INTO device_address(device_id, name, value) VALUES(189, 'ptmx_fops', '0xc101c4d0');
+
+INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(190, 'LGL22', 'JDQ39B', 'ro.lge.swversion', 'LGL2210a');
+  INSERT INTO device_address(device_id, name, value) VALUES(190, 'prepare_kernel_cred', '0xc00c3894');
+  INSERT INTO device_address(device_id, name, value) VALUES(190, 'commit_creds', '0xc00c3388');
+  INSERT INTO device_address(device_id, name, value) VALUES(190, 'remap_pfn_range', '0xc0144d10');
+  INSERT INTO device_address(device_id, name, value) VALUES(190, 'vmalloc_exec', '0xc01522cc');
+  INSERT INTO device_address(device_id, name, value) VALUES(190, 'ptmx_fops', '0xc101a7a0');
+
+INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(191, 'LGL22', 'JDQ39B', 'ro.lge.swversion', 'LGL2210b');
+  INSERT INTO device_address(device_id, name, value) VALUES(191, 'prepare_kernel_cred', '0xc00c3adc');
+  INSERT INTO device_address(device_id, name, value) VALUES(191, 'commit_creds', '0xc00c35d0');
+  INSERT INTO device_address(device_id, name, value) VALUES(191, 'remap_pfn_range', '0xc0145038');
+  INSERT INTO device_address(device_id, name, value) VALUES(191, 'vmalloc_exec', '0xc01525f4');
+  INSERT INTO device_address(device_id, name, value) VALUES(191, 'ptmx_fops', '0xc101a7a0');
+
+INSERT INTO supported_devices(device_id, device, build_id, check_property_name, check_property_value) VALUES(192, 'LGL23', 'JDQ39B', 'ro.lge.swversion', 'LGL2310d');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'prepare_kernel_cred', '0xc00c2e58');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'commit_creds', '0xc00c294c');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'remap_pfn_range', '0xc01442d4');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'vmalloc_exec', '0xc0151890');
+  INSERT INTO device_address(device_id, name, value) VALUES(192, 'ptmx_fops', '0xc111fba0');
+
 COMMIT;
